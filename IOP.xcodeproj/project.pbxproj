@@ -12,6 +12,7 @@
 		3CC075851F6F9B2200ABB55C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3CC075831F6F9B2200ABB55C /* Main.storyboard */; };
 		3CC075871F6F9B2200ABB55C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3CC075861F6F9B2200ABB55C /* Assets.xcassets */; };
 		3CC0758A1F6F9B2200ABB55C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3CC075881F6F9B2200ABB55C /* LaunchScreen.storyboard */; };
+		3CC075921F6F9B7900ABB55C /* ViewPoint.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3CC075911F6F9B7900ABB55C /* ViewPoint.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		3CC075861F6F9B2200ABB55C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3CC075891F6F9B2200ABB55C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3CC0758B1F6F9B2200ABB55C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3CC075911F6F9B7900ABB55C /* ViewPoint.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = ViewPoint.plist; path = ../ViewPoint.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 		3CC0757E1F6F9B2200ABB55C /* IOP */ = {
 			isa = PBXGroup;
 			children = (
+				3CC075911F6F9B7900ABB55C /* ViewPoint.plist */,
 				3CC0757F1F6F9B2200ABB55C /* AppDelegate.swift */,
 				3CC075811F6F9B2200ABB55C /* ViewController.swift */,
 				3CC075831F6F9B2200ABB55C /* Main.storyboard */,
@@ -125,6 +128,7 @@
 			files = (
 				3CC0758A1F6F9B2200ABB55C /* LaunchScreen.storyboard in Resources */,
 				3CC075871F6F9B2200ABB55C /* Assets.xcassets in Resources */,
+				3CC075921F6F9B7900ABB55C /* ViewPoint.plist in Resources */,
 				3CC075851F6F9B2200ABB55C /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
